@@ -4,6 +4,10 @@
 diaTracer processes four-dimensional (intensity, m/z, retention time, ion mobility) diaPASEF scans to generate precursor-resolved “pseudo-MS/MS” spectra, facilitating direct (spectral-library free) peptide identification and quantification from diaPASEF data. diaTracer is available as a stand-alone tool and is also fully integrated in the widely used FragPipe computational platform. 
 ![image](https://github.com/Nesvilab/diaTracer/assets/29800230/14191096-8b91-42af-8e99-b4e3e2e5a656)
 
+## System requirements
+1. Java 1.11+
+2. 'ext' folder from the latest [MSFragger](https://msfragger.arsci.com/upgrader/).
+3. The latest [FragPipe](https://github.com/Nesvilab/FragPipe/releases/latest) (optional).
 ## Download
 The latest diaTracer can be downloaded [here](https://msfragger-upgrader.nesvilab.org/diatracer/).
 
@@ -38,3 +42,11 @@ options:
  -t,--threadNum <arg>           thread number
  -w,--workDir <arg>             work directory
 ```
+### Test data
+Here is one [.d](https://www.dropbox.com/scl/fi/4m8bvp02bcwjyno49nrol/20200505_Evosep_100SPD_SG06-16_MLHeLa_100ng_py8_S2-C1_1_2731.d.zip?rlkey=x33rb8rn26zeuduf4yy3uht95&dl=0) file from the [Florian Meier et al.](https://www.nature.com/articles/s41592-020-00998-0). Please download and unzip it.
+
+```shell
+java -jar diaTracer-1.1.4.jar --dFilePath ./20200505_Evosep_100SPD_SG06-16_MLHeLa_100ng_py8_S2-C1_1_2731.d --workDir ./ --writeInter 0 --deltaApexIM 0.01 --deltaApexRT 3 --ms1MS2Corr 0.3 --massDefectFilter 0 --massDefectOffset 0.1 --RFMax 500 --threadNum 12
+```
+After runing the above command, a mzML file named `20200505_Evosep_100SPD_SG06-16_MLHeLa_100ng_py8_S2-C1_1_2731_diaTracer.mzML` will be generated in the same path of `.d` file. The running time will be around 10 minutes using 12 threads.
+
