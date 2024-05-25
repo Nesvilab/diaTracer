@@ -1,8 +1,14 @@
 # diaTracer
 
 ## Overview
-diaTracer processes four-dimensional (intensity, m/z, retention time, ion mobility) diaPASEF scans to generate precursor-resolved “pseudo-MS/MS” spectra, facilitating direct (spectral-library free) peptide identification and quantification from diaPASEF data. diaTracer is available as a stand-alone tool and is also fully integrated in the widely used FragPipe computational platform. 
+diaTracer is a computational tool that enables spectrum-centric analysis of Bruker's diaPASEF proteomics data, facilitating direct (“spectral-library free”) peptide identification and quantification. diaTracer reads diaASEF .d files and performs three-dimensional (m/z, retention time, ion mobility) peak tracing and feature detection to generate “pseudo-MS/MS” spectra, which are saved as mzML files. These pseudo-MS/MS spectra can then be processed as DDA spectra using MSFragger or any other search engine. diaTracer supports analysis of any diaPASEF proteomics data, including data requring semi-tryptic (e.g. N-terminomics) or nonspecific (e.g. HLA immunopeptidomics) searches, searches allowing for chemical (e.g. chemical proteomics) or biological modifications (e.g., phosphoproteomics). diaTracer is fast, making direct DIA analysis of large sample cohorts possible. Furthermore, diaTracer enables unrestricted identification of post-translational modifications from diaPASEF data using open/mass offset searches.
+
+diaTracer is available as a stand-alone tool and is fully integrated into FragPipe computational platform.
+
 ![image](https://github.com/Nesvilab/diaTracer/assets/29800230/14191096-8b91-42af-8e99-b4e3e2e5a656)
+Overview of diaTracer and its place within the FragPipe computational platform. 
+diaTracer applies a 3D feature detection algorithm to detect signals from all possible precursors and fragments in MS1 and MS2 diaPASEF data. Pseudo-MS/MS spectra are generated through precursor-fragment clustering and can be processed as DDA data using MSFragger and FragPipe to build a spectral library directly from the data. A hybrid spectral library can also be generated if DDA data are available. This spectral library is then used to extract quantification using DIA-NN.
+
 
 ## System requirements
 1. Java 1.11+
