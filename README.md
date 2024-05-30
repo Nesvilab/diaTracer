@@ -22,7 +22,6 @@ The latest diaTracer can be downloaded [here](https://msfragger-upgrader.nesvila
 1. Download [FragPipe](http://fragpipe.nesvilab.org/) from [here](https://github.com/Nesvilab/FragPipe/releases/latest).
 2. Follow the tutorial.
 
-
 ### Standalone usage in command line interface
 Run `java -jar diaTracer-1.1.4.jar` to get options.
 
@@ -48,6 +47,7 @@ options:
  -t,--threadNum <arg>           thread number
  -w,--workDir <arg>             work directory
 ```
+
 ### Test data
 Here is one [.d](https://www.dropbox.com/scl/fi/4m8bvp02bcwjyno49nrol/20200505_Evosep_100SPD_SG06-16_MLHeLa_100ng_py8_S2-C1_1_2731.d.zip?rlkey=x33rb8rn26zeuduf4yy3uht95&dl=0) file from the [Florian Meier et al.](https://www.nature.com/articles/s41592-020-00998-0). Please download and unzip it.
 
@@ -56,3 +56,9 @@ java -jar diaTracer-1.1.4.jar --dFilePath ./20200505_Evosep_100SPD_SG06-16_MLHeL
 ```
 After runing the above command, a mzML file named `20200505_Evosep_100SPD_SG06-16_MLHeLa_100ng_py8_S2-C1_1_2731_diaTracer.mzML` will be generated in the same path of `.d` file. The running time will be around 10 minutes using 12 threads.
 
+## Publication
+<a href="https://doi.org/10.1101/2024.05.25.595875" target="_blank">diaTracer enables spectrum-centric analysis of diaPASEF proteomics data</a>
+<br>
+Kai Li, Guo Ci Teo, Kevin L. Yang, Fengchao Yu, Alexey I. Nesvizhskii
+<br>
+bioRxiv, DOI: 10.1101/2024.05.25.595875
