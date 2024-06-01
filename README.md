@@ -11,7 +11,7 @@ diaTracer applies a 3D feature detection algorithm to detect signals from all po
 
 
 ## System requirements
-1. Java 1.11+
+1. Java 11+
 2. 'ext' folder from the latest [MSFragger](https://msfragger.arsci.com/upgrader/).
 3. The latest [FragPipe](https://github.com/Nesvilab/FragPipe/releases/latest) (optional).
 ## Download
