@@ -49,7 +49,7 @@ options:
 ```
 
 ### Test data
-Here is one [.d](https://www.dropbox.com/scl/fi/4m8bvp02bcwjyno49nrol/20200505_Evosep_100SPD_SG06-16_MLHeLa_100ng_py8_S2-C1_1_2731.d.zip?rlkey=x33rb8rn26zeuduf4yy3uht95&dl=0) file from the [Florian Meier et al.](https://www.nature.com/articles/s41592-020-00998-0). Please download and unzip it.
+Here is one [.d](https://www.dropbox.com/scl/fi/ydoeyjcxue6yz3c4rthvc/demo_data.zip?rlkey=5hazgmw4qfdc25l8oco5z3s8q&dl=0) file from the [Florian Meier et al.](https://www.nature.com/articles/s41592-020-00998-0). Please download and unzip it.
 
 ```shell
 java -jar diaTracer-1.1.4.jar --dFilePath ./20200505_Evosep_100SPD_SG06-16_MLHeLa_100ng_py8_S2-C1_1_2731.d --workDir ./ --writeInter 0 --deltaApexIM 0.01 --deltaApexRT 3 --ms1MS2Corr 0.3 --massDefectFilter 0 --massDefectOffset 0.1 --RFMax 500 --threadNum 12
