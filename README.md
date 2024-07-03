@@ -14,8 +14,15 @@ diaTracer applies a 3D feature detection algorithm to detect signals from all po
 1. Java 11+
 2. 'ext' folder from the latest [MSFragger](https://msfragger.arsci.com/upgrader/).
 3. The latest [FragPipe](https://github.com/Nesvilab/FragPipe/releases/latest) (optional).
+
+
 ## Download
 The latest diaTracer can be downloaded [here](https://msfragger-upgrader.nesvilab.org/diatracer/).
+
+
+## Release note
+The up-to-date release note can be found in [CHANGELOG.md](CHANGELOG.md).
+
 
 ## How to run diaTracer
 ### In FragPipe
