@@ -1,7 +1,7 @@
 # Changelog
 
 
-## 1.1.4 - 2024-07-03
+## 1.1.5 - 2024-07-03
 - Require Java 11+
 -  Fix index out of range bug: https://github.com/Nesvilab/FragPipe/issues/1623
 
