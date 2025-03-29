@@ -64,8 +64,8 @@ java -jar diaTracer-1.1.4.jar --dFilePath ./20200505_Evosep_100SPD_SG06-16_MLHeL
 After runing the above command, a mzML file named `20200505_Evosep_100SPD_SG06-16_MLHeLa_100ng_py8_S2-C1_1_2731_diaTracer.mzML` will be generated in the same path of `.d` file. The running time will be around 10 minutes using 12 threads.
 
 ## Publication
-<a href="https://doi.org/10.1101/2024.05.25.595875" target="_blank">diaTracer enables spectrum-centric analysis of diaPASEF proteomics data</a>
+<a href="https://doi.org/10.1038/s41467-024-55448-8" target="_blank">diaTracer enables spectrum-centric analysis of diaPASEF proteomics data</a>
 <br>
 Kai Li, Guo Ci Teo, Kevin L. Yang, Fengchao Yu, Alexey I. Nesvizhskii
 <br>
-bioRxiv, DOI: 10.1101/2024.05.25.595875
+Nature Communications 16, no. 1 (2025): 95., DOI: 10.1038/s41467-024-55448-8
