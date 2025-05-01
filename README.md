@@ -3,7 +3,7 @@
 ## Overview
 diaTracer is a computational tool that enables spectrum-centric analysis of Bruker's diaPASEF data-independent acquisition proteomics data, facilitating direct (“spectral-library free”) peptide identification and quantification. diaTracer processes diaPASEF raw mass spectrometry data (.d files) and performs three-dimensional (m/z, retention time, ion mobility) peak tracing and feature detection, groups precursor and fragment signals, and generates “pseudo-MS/MS” spectra (in mzML format). These pseudo-MS/MS spectra can then be processed as DDA spectra using MSFragger or any other search engine. diaTracer supports analysis of any diaPASEF proteomics data, including data requiring semi-tryptic (e.g. N-terminomics) or nonspecific (e.g. HLA immunopeptidomics) searches, searches allowing for chemical (e.g. chemical proteomics) or biological modifications (e.g. phosphoproteomics). diaTracer is fast, making direct DIA analysis of large sample cohorts possible. Furthermore, diaTracer enables unrestricted identification of post-translational modifications from diaPASEF data using open/mass offset searches.
 
-diaTracer is available as a stand-alone tool and is fully integrated into FragPipe computational platform.
+diaTracer is available as a stand-alone tool and can also be run as part of the [FragPipe](https://fragpipe.nesvilab.org/) computational platform.
 
 ![image](https://github.com/Nesvilab/diaTracer/assets/29800230/14191096-8b91-42af-8e99-b4e3e2e5a656)
 Overview of diaTracer and its place within the FragPipe computational platform. 
@@ -15,10 +15,13 @@ diaTracer applies a 3D feature detection algorithm to detect signals from all po
 2. 'ext' folder from the latest [MSFragger](https://msfragger.arsci.com/upgrader/).
 3. The latest [FragPipe](https://github.com/Nesvilab/FragPipe/releases/latest) (optional).
 
+## License
+diaTracer is available freely for __academic research__, __non-commercial__ or __educational__ purposes under [academic license](https://msfragger.arsci.com/upgrader/MSFragger-LICENSE.pdf).
+
+Other uses require a __commercial__ license that can be obtained by visiting [Fragmatics](https://www.fragmatics.com) or emailing at info@fragmatics.com.
 
 ## Download
-The latest diaTracer can be downloaded [here](https://msfragger-upgrader.nesvilab.org/diatracer/).
-
+Academic users can download diaTracer [here](https://msfragger-upgrader.nesvilab.org/diatracer/). Comercial users must contact Fragmatics to obtain the executable of the program. 
 
 ## Release note
 The up-to-date release note can be found in [CHANGELOG.md](CHANGELOG.md).
