@@ -1,5 +1,7 @@
 # Changelog
-
+## 1.2.5 - 2025-05-02
+- Require Java 11+
+- Various bug fixes and improvements
 
 ## 1.1.5 - 2024-07-03
 - Require Java 11+
