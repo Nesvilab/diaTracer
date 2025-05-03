@@ -1,5 +1,5 @@
 # Changelog
-## 1.2.5 - 2025-05-02
+## 1.2.5 - 2025-05-03
 - Require Java 11+
 - Various bug fixes and improvements
 - Optimized Isotope-Filtering Process: improved the robust isotope filtering step that removes MS1 scans attributable to isotopic peaks, cutting out redundant measurements.
