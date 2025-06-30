@@ -1,4 +1,10 @@
 # Changelog
+## 1.3.3 - 2025-06-30
+- Require Java 11+
+- Fix a randomness issue
+- Various bug fixes and improvements
+
+
 ## 1.2.5 - 2025-05-03
 - Require Java 11+
 - Various bug fixes and improvements
