@@ -1,9 +1,15 @@
 # Changelog
+## 2.2.1 - 2025-12-24
+- Require Java 11+
+- Support Synchro-PASEF and Slice-PASEF formats
+- Significantly improve the running speed
+- Reduce memory footprint
+- Various bug fixes and improvements
+
 ## 1.3.3 - 2025-06-30
 - Require Java 11+
 - Fix a randomness issue
 - Various bug fixes and improvements
-
 
 ## 1.2.5 - 2025-05-03
 - Require Java 11+
