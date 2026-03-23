@@ -12,11 +12,11 @@ diaTracer applies a 3D feature detection algorithm to detect signals from all po
 
 ## System requirements
 1. Java 11+
-2. 'ext' folder from the latest [MSFragger](https://msfragger.arsci.com/upgrader/).
+2. 'ext' folder from the latest [MSFragger](https://msfragger-upgrader.nesvilab.org/upgrader/).
 3. The latest [FragPipe](https://github.com/Nesvilab/FragPipe/releases/latest) (optional).
 
 ## License
-diaTracer is available freely for __academic research__, __non-commercial__ or __educational__ purposes under [academic license](https://msfragger.arsci.com/upgrader/MSFragger-LICENSE.pdf).
+diaTracer is available freely for __academic research__, __non-commercial__ or __educational__ purposes under [academic license](https://msfragger-upgrader.nesvilab.org/diatracer/LICENSE-ACADEMIC.pdf).
 
 Other uses require a __commercial__ license that can be obtained by visiting [Fragmatics](https://www.fragmatics.com) or emailing at info@fragmatics.com.
 
